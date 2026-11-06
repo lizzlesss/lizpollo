@@ -4,8 +4,10 @@ set -eoux pipefail
 
 pacman -R --noconfirm power-profiles-daemon
 pacman -Sy --noconfirm \
+    mangohud \
     scx-scheds \
     scx-tools \
+    steam \
     tuned \
     tuned-ppd \
     wget
